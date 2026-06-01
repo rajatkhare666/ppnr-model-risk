@@ -92,12 +92,13 @@ over pure statistical metrics:
 
 ```
 ├── notebooks/          # Step by step Jupyter notebooks
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_stationarity_tests.ipynb
-│   ├── 03_cointegration_vif.ipynb
-│   ├── 04_model_development.ipynb
-│   ├── 05_backtesting.ipynb
-│   └── 06_stress_scenarios.ipynb
+│   ├── 1a_data_preparation.ipynb
+│   ├── 1b_statistical_tests.ipynb
+│   ├── 2a_ecm_estimation.ipynb
+│   ├── 2b_arxd1_estimation.ipynb
+│   ├── 2c_arxlevel_estimation.ipynb
+│   ├── 3a_backtesting.ipynb
+│   ├── 3b_forecasting.ipynb
 ├── src/                # Modular Python source code
 ├── data/sample/        # Synthetic anonymized sample data
 ├── reports/            # Model validation summaries
@@ -131,17 +132,15 @@ over pure statistical metrics:
 
 | Notebook | Content |
 |---|---|
-| 01 | Data loading, exploration, visualization |
+| 01a | Data loading, exploration, visualization |
 
-| 02 | ADF stationarity tests, differencing |
+| 01b | ADF stationarity tests, differencing,Cointegration testing, VIF filtering |
 
-| 03 | Cointegration testing, VIF filtering |
+| 02 | ECM, ARX Level, ARX D1 model building |
 
-| 04 | ECM, ARX Level, ARX D1 model building |
+| 03a | Backtesting, actual vs predicted |
 
-| 05 | Backtesting, actual vs predicted |
-
-| 06 | Stress scenario projections |
+| 03b | Stress scenario projections |
 
 ---
 
