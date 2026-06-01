@@ -132,10 +132,15 @@ over pure statistical metrics:
 | Notebook | Content |
 |---|---|
 | 01 | Data loading, exploration, visualization |
+
 | 02 | ADF stationarity tests, differencing |
+
 | 03 | Cointegration testing, VIF filtering |
+
 | 04 | ECM, ARX Level, ARX D1 model building |
+
 | 05 | Backtesting, actual vs predicted |
+
 | 06 | Stress scenario projections |
 
 ---
@@ -154,8 +159,3 @@ All data used is synthetic or anonymized or available freely over the internet.
 No proprietary or confidential information is included.
 This repository is for educational and portfolio purposes only.
 ```
-
-
----
-
-Tell me when README is updated and we'll move to creating the first notebook.
